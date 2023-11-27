@@ -17,7 +17,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Hi!\nThis bot returns whatever you send.")
+    await message.reply("Hi!\nThis bot finds information in Uzbek language.")
 
 @dp.message_handler()
 async def WikiInfo(message: types.Message):
